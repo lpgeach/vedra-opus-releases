@@ -4,6 +4,14 @@ Vedra Opus is a desktop app for building interactive eLearning courses: slides, 
 
 This repository is where its test builds are published, so you can download and try them. The app's own code is not here.
 
+[![Sponsor Vedra Opus](https://img.shields.io/badge/Sponsor-Vedra%20Opus-db61a2?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/lpgeach)
+
+<img src="images/editor-light.png" alt="The Vedra Opus editor in its light theme, with the demo course open on its title slide: slides on the left, the slide on the stage, its triggers on the right and its timeline below" width="920">
+
+<img src="images/editor-dark.png" alt="The editor in its dark theme, showing the demo course's slide of four statistics about the UK space industry" width="920">
+
+_The editor in its light and dark themes, with the demo course, The UK Space Industry in 2026._
+
 ## ⬇️ Download
 
 **Latest: [Vedra Opus 0.1.0 alpha 3](https://github.com/lpgeach/vedra-opus-releases/releases/tag/v0.1.0-alpha.3)** for Windows 10 or 11 (64-bit).
@@ -38,3 +46,9 @@ There are no macOS or Linux installers yet.
 Vedra Opus ships ffmpeg (LGPL 2.1 or later) and LibreOffice (MPL 2.0). The complete source of both, exactly as built for each version, is published here alongside it: for alpha 3, **[Third-party source for Vedra Opus 0.1.0 alpha 3](https://github.com/lpgeach/vedra-opus-releases/releases/tag/sources-0.1.0-alpha.3)**. You do not need it to install or use the app.
 
 **Help → Third-Party Notices…** in the app lists every licence, including the demo course's music and pictures.
+
+## 💜 Support Vedra Opus
+
+If Vedra Opus is useful to you, you can support its development through GitHub Sponsors:
+
+[![Sponsor Vedra Opus](https://img.shields.io/badge/Sponsor-Vedra%20Opus-db61a2?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/lpgeach)
