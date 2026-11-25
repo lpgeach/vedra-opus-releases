@@ -15,21 +15,38 @@ _The editor in its light and dark themes, with the demo course, The UK Space Ind
 
 ## ⬇️ Download
 
-**Latest: [Vedra Opus 0.1.0 alpha 3](https://github.com/lpgeach/vedra-opus-releases/releases/tag/v0.1.0-alpha.3)** for Windows 10 or 11 (64-bit).
+**Latest: [Vedra Opus 0.1.0 alpha 4](https://github.com/lpgeach/vedra-opus-releases/releases/tag/v0.1.0-alpha.4)** for Windows and macOS.
 
-1. Download **[`Vedra-Opus-0.1.0-alpha.3-x64.exe`](https://github.com/lpgeach/vedra-opus-releases/releases/download/v0.1.0-alpha.3/Vedra-Opus-0.1.0-alpha.3-x64.exe)** (238 MB).
+### Windows 10 or 11 (64-bit)
+
+1. Download **[`Vedra-Opus-0.1.0-alpha.4-x64.exe`](https://github.com/lpgeach/vedra-opus-releases/releases/download/v0.1.0-alpha.4/Vedra-Opus-0.1.0-alpha.4-x64.exe)** (238 MB).
 2. Run it. The alpha is **not signed** yet, so Windows shows "Windows protected your PC": choose **More info → Run anyway**.
 3. Choose where to install it, and start Vedra Opus from the Start menu.
 
-To check the download, its SHA-256 is:
+### macOS 11 or later
+
+1. Download the one for your Mac:
+   - **Apple Silicon** (M1 and later): **[`Vedra-Opus-0.1.0-alpha.4-arm64.dmg`](https://github.com/lpgeach/vedra-opus-releases/releases/download/v0.1.0-alpha.4/Vedra-Opus-0.1.0-alpha.4-arm64.dmg)** (276 MB)
+   - **Intel**: **[`Vedra-Opus-0.1.0-alpha.4-x64.dmg`](https://github.com/lpgeach/vedra-opus-releases/releases/download/v0.1.0-alpha.4/Vedra-Opus-0.1.0-alpha.4-x64.dmg)** (292 MB)
+   - Not sure? Apple menu → About This Mac: "Chip: Apple M…" is Apple Silicon; "Processor: Intel" is Intel.
+2. Open it and drag **Vedra Opus** into **Applications**.
+3. The alpha is **not notarised by Apple** yet, so the first time macOS will not open it. Try opening it once, then go to **System Settings → Privacy & Security** and choose **Open Anyway** beside Vedra Opus.
+
+The Apple Silicon version is new and has not yet been tried on an Apple Silicon Mac; the Intel version also runs on those Macs, through Rosetta.
+
+### Checking a download
+
+Their SHA-256:
 
 ```
-363949c40cf580088b06b304a0b220beae3795f616de0daccbcd60db5c9f1526
+f28ce0203032efdc9b61cd4076dfb0ad6f31f64eeb099eb6bf2e5221bc7e0488  Vedra-Opus-0.1.0-alpha.4-x64.exe
+12e995edd7ba74dc11cd9640f4f034f92578c896c9a128b2c8fbef4de8f7a2de  Vedra-Opus-0.1.0-alpha.4-arm64.dmg
+7e63136318191b8f7419e42c4bc371309444beb7d1070571c30e42768dc11091  Vedra-Opus-0.1.0-alpha.4-x64.dmg
 ```
 
-In PowerShell: `Get-FileHash .\Vedra-Opus-0.1.0-alpha.3-x64.exe`.
+In PowerShell: `Get-FileHash .\Vedra-Opus-0.1.0-alpha.4-x64.exe`. In the macOS Terminal: `shasum -a 256 Vedra-Opus-0.1.0-alpha.4-arm64.dmg`.
 
-There are no macOS or Linux installers yet.
+There are no Linux installers yet.
 
 ## 🚀 Getting started
 
@@ -40,11 +57,11 @@ There are no macOS or Linux installers yet.
 ## ⚠️ This is an alpha
 
 - Things will be missing and some will break. Keep copies of projects you care about.
-- **Help → Check for Updates** does not work in alpha 3. New versions appear on this repository's [Releases](https://github.com/lpgeach/vedra-opus-releases/releases) page.
+- **Updates:** from alpha 4, **Help → Check for Updates** on Windows finds new versions here. On macOS, and from alpha 3 or earlier, download new versions from this repository's [Releases](https://github.com/lpgeach/vedra-opus-releases/releases) page.
 
 ## 📦 Third-party source
 
-Vedra Opus ships ffmpeg (LGPL 2.1 or later) and LibreOffice (MPL 2.0). The complete source of both, exactly as built for each version, is published here alongside it: for alpha 3, **[Third-party source for Vedra Opus 0.1.0 alpha 3](https://github.com/lpgeach/vedra-opus-releases/releases/tag/sources-0.1.0-alpha.3)**. You do not need it to install or use the app.
+Vedra Opus ships ffmpeg (LGPL 2.1 or later) and LibreOffice (MPL 2.0). The complete source of both, exactly as built for each version, is published here alongside it: for alpha 4, **[Third-party source for Vedra Opus 0.1.0 alpha 4](https://github.com/lpgeach/vedra-opus-releases/releases/tag/sources-0.1.0-alpha.4)**. You do not need it to install or use the app.
 
 **Help → Third-Party Notices…** in the app lists every licence, including the demo course's music and pictures.
 
