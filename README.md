@@ -3,7 +3,7 @@
 
 Vedra Opus is a desktop app for building interactive eLearning courses: slides, layers and triggers, quizzes, audio and video, and publishing to SCORM, xAPI, cmi5 or plain HTML.
 
-This repository is where its test builds are published, so you can download and try them. The app's own code is not here.
+This repository is where its test builds are published, so you can download and try them. The source code is at **[lpgeach/vedra-opus-source](https://github.com/lpgeach/vedra-opus-source)**, under the GNU General Public License, version 3 or later.
 
 [![Sponsor Vedra Opus](https://img.shields.io/badge/Sponsor-Vedra%20Opus-db61a2?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/lpgeach)
 
