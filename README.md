@@ -7,9 +7,9 @@ This repository is where its test builds are published, so you can download and 
 
 [![Sponsor Vedra Opus](https://img.shields.io/badge/Sponsor-Vedra%20Opus-db61a2?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/lpgeach)
 
-<img src="images/editor-light.png" alt="The Vedra Opus editor in its light theme, with the demo course open on its title slide: slides on the left, the slide on the stage, its triggers on the right and its timeline below" width="920">
+<img src="images/editor-light.png" alt="The Vedra Opus editor in its light theme, with the demo course open on its title slide: the ribbon above, slides on the left, the slide on the stage, its triggers and layers on the right and its timeline below" width="920">
 
-<img src="images/editor-dark.png" alt="The editor in its dark theme, showing the demo course's slide of four statistics about the UK space industry" width="920">
+<img src="images/editor-dark.png" alt="The editor in its dark theme, showing the demo course's table of the parts of the UK space industry" width="920">
 
 _The editor in its light and dark themes, with the demo course, The UK Space Industry in 2026._
 
